@@ -1,0 +1,549 @@
+\\Homepage
+
+html{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 232px;
+    align-items: center;
+    display: flex;
+}
+
+.text{
+    font-family: 'Hepta Slab', serif;
+    color: rgba(240, 165, 0, 1);
+    font-size: 55px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.button-container{
+    position: absolute;
+    right: 50px;
+    top: 130px;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    background-color: rgba(240, 165, 0, 1);
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+button:active{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-weight: bold;
+    transition: 0.15s;
+    font-size: ;
+}
+
+.search-container {
+    display: flex;
+    height: 48px;
+    width: 472px;
+}
+
+.search-bar {
+    width: 500px;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    position: absolute;
+    right: 50px;
+    top: 60px;
+}
+
+
+.content1-container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 1%;
+}
+
+.content1{
+    font-size: 16px;
+    text-align: justify;
+    width: 600px;
+    height: 347px;
+
+}
+
+.content1-img{
+    width: 525px;
+    height: 525px;
+
+}
+
+.content2-container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 1%;
+}
+
+.content2{
+    font-size: 16px;
+    text-align: justify;
+    width: 600px;
+    height: 347px;
+    padding-top: 50px;
+
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2-img{
+    width: 525px;
+    height: 525px;
+    border-radius: 30px;
+    float: left;
+
+}
+
+.intro{
+    font-family: 'Hepta Slab', serif;
+    color: rgba(240, 165, 0, 1);
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.ctoaction{
+    width: 274px;
+    height: 60px;
+    background-color: black;
+    border: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.ctoaction:hover{
+    background-color: white;
+    font-weight: 400px;
+    color: black;
+}
+
+
+\\end of homepage
+
+\\Family slideshow
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container1 {
+    width: 30%;
+    position: relative;
+    border-radius: 40px;
+  }
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  background-color: black;
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot-container {
+    display: none;
+  }
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slideimg{
+    width: 100%;
+}
+
+.nav{
+    text-align: center;
+}
+
+\\end of family slideshow
+
+\\Family tree
+
+.famtree-container{
+    width: 100%;
+    height: 719px;
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    background-color: black;
+    width: 486px;
+    height: 22px;
+    border: 0px;
+    margin-left: 40%;
+}
+
+.textfam{
+    font-family: 'Itim', cursive;
+    font-size: 96px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-container{
+    width: 529px;
+    height: 122px;
+    align-items: center;
+    margin-left: 39%;
+}
+
+.famimg{
+    height: 391px;
+    width: 424px;
+    border-radius: 20px;
+
+}
+
+.famimg-container{
+    width: 100%;
+    height: 547px;
+    display: flex;
+    justify-content: center;
+}
+
+.parent-container{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.parentimg-container{
+    height: 391px;
+}
+
+.parent-name-container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.parent-name{
+    height: 100px;
+    width: 657px;
+    background-color: black;
+    border-radius: 45px;
+}
+
+.famtext{
+    font-family: 'Itim', cursive;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 2.5%;
+}
+
+.famtext1{
+    font-family: 'Itim', cursive;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 2.5%;
+
+}
+
+.history-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 1%;
+}
+
+.Me{
+    background-color: black;
+    width: 645px;
+    height: 754px;
+    border-radius: 40px;
+    margin-top: 0.5%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.Me2{
+    height: 650px;
+    width: 548px;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.separator{
+    background-color: black;
+    height: 100px;
+    width: 600px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin-top: 2%;
+    padding: 1%;
+    margin-bottom: 2%;
+    
+}
+
+.separator1-container{
+    display: flex;
+    justify-content: right;
+}
+.separator1{
+    background-color: black;
+    height: 100px;
+    width: 600px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    margin-top: 2%;
+    padding: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.mee{
+    width: 100%;
+    height: 486px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.imgme{
+    height: 486px;
+    width: 532px;
+    border-radius: 50%;
+    margin-left: -250px;
+    margin-right: -250px;
+    z-index: 1;
+}
+
+.container{
+   height: 179px;
+   width:680px;
+   background-color: black; 
+   border-radius: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.container1{
+    height: 116px;
+    width:595px;
+    background-color: white; 
+    border-radius: 45px;
+}
+
+.Aboutme-container{
+    display: flex;
+    justify-content: center;
+}
+
+.Aboutme-container1{
+    width: 600PX;
+    height: 710px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.info{
+    background-color: black;
+    height: auto;
+    width: auto;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.img{
+    height: 838px;
+    width: 739px;
+}
+
+.name{
+    display: flex;
+    justify-content: left;
+}
+
+.text2{
+    font-family: 'Hepta Slab', serif;
+    color: rgba(240, 165, 0, 1);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.copyright{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.famtext2{
+    font-family: 'Itim', cursive;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2.5%;
+}
+
+.logo{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.logo-img{
+    height: 50px;
+    width: 50px;
+}
+
+.contentext{
+    font-size: 20px;
+}
+
+.button-text{
+    font-weight: bold;
+    font-size: 16px;
+}
